@@ -1,4 +1,4 @@
-package org.example.pokemonlabo1.common.utils;
+package org.example.pokemonlabo1.utils;
 
 import org.example.pokemonlabo1.domain.entities.Pokemon;
 import org.springframework.stereotype.Component;
