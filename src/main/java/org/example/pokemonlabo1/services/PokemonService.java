@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 public class PokemonService {
     private final PokemonRepository repository;
 
-    // PARA EL PRIMERO USE IA PARA ENTENDER COMO FUNCIONABA FILTER
+    // PARA EL PRIMERO USE IA PARA ENTENDER COMO FUNCIONA FILTER
     public List<Pokemon> filterByType(String type) {
         return repository.getAllPokemons().stream()
                 .filter(p -> p.getPokemonType().toLowerCase().contains(type.toLowerCase()))

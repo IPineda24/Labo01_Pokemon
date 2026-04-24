@@ -9,10 +9,9 @@ import java.util.List;
 @Component
 public class PokemonList {
     private final List<Pokemon> pokemons;
-
+// LA LISTA SE GENERO CON IA
     public PokemonList() {
         this.pokemons = new ArrayList<>();
-
         this.pokemons.add(Pokemon.builder().id(1L).pokemonName("Pikachu").pokemonType("Electric").weaknesses(Arrays.asList("Ground")).typeOfZones(Arrays.asList("Forest", "City")).region("Kanto").build());
         this.pokemons.add(Pokemon.builder().id(2L).pokemonName("Bulbasaur").pokemonType("Grass/Poison").weaknesses(Arrays.asList("Fire", "Ice", "Flying", "Psychic")).typeOfZones(Arrays.asList("Grassland", "Forest")).region("Kanto").build());
         this.pokemons.add(Pokemon.builder().id(3L).pokemonName("Charmander").pokemonType("Fire").weaknesses(Arrays.asList("Water", "Ground", "Rock")).typeOfZones(Arrays.asList("Mountain", "Cave")).region("Kanto").build());
